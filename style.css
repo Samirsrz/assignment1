@@ -97,7 +97,7 @@ line-height: normal;
       background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Vectorrr.png');
       background-repeat: no-repeat;
       justify-content: center;
-      
+      border-radius: 16px;
 }
 .mid-party .mid-content{
     padding: 126px 152px 298px 126px;
@@ -133,6 +133,7 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 text-transform: uppercase;
+border: none;
  }
 
 
@@ -192,7 +193,7 @@ margin-bottom: 0;
 .holi{
   width: 1320px;
   margin:50px auto;
-   
+  margin-top: 150px;
 
 }
 .holi .pink{
@@ -248,6 +249,7 @@ margin-bottom: 28px;
     margin: 30px auto;
     align-items: center;
     text-align: center;
+    margin-top: 150px;
 }
 .contact-content{
   width: 896px;
@@ -325,6 +327,7 @@ line-height: 32px;
     display: flex;
     text-align: left;
     justify-content: center;
+    margin-top: 150px;
    
   }
 .three-side .first-side{
@@ -475,15 +478,6 @@ margin-bottom: 30px;
 }
 
 
-
-
-
-
-
-
-
-
-  
   /* styling footer */
 
   .end{
@@ -492,6 +486,7 @@ margin-bottom: 30px;
     margin: 0;
     padding: 0;
     background-color:#070211 ;
+    margin-top: 150px;
   }
   .end1{
     margin: 50px auto;
