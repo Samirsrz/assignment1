@@ -2,9 +2,11 @@
     margin: 50px auto;
     width: 1340px;
     height: 600px;
-    background-image: url('images/Banner\ Image.png');
+    background: linear-gradient(80deg,#070211 0%, rgba(7,2,17,0)100%),url('images/Banner\ Image.png');
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
+    border-radius: 16px;
     text-align: center;
      flex-shrink: 0;
      align-items: center;
@@ -31,6 +33,7 @@
     height:90px ;
     text-align: center;
     padding-left: 350px;
+    margin-bottom: 25px;
 }
 
 
@@ -91,7 +94,7 @@ line-height: normal;
       flex-shrink: 0;
       margin: 50px auto;
       display: flex;
-      background-image: url('images/Vectorrr.png');
+      background:linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('images/Vectorrr.png');
       background-repeat: no-repeat;
       justify-content: center;
       
@@ -194,13 +197,14 @@ margin-bottom: 0;
 }
 .holi .pink{
     color: #F00;
-
+margin-top: 120px;
 font-family: Inter;
 font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
 text-align: left;
+margin-bottom: 20px;
 }
 .holi .no-pink{
     text-align: left;
@@ -221,7 +225,9 @@ font-size: 48px;
 font-style: normal;
 font-weight: 900;
 line-height: normal;
-margin-top: 0;
+margin-top: 20;
+text-align: left;
+margin-bottom: 28px;
 }
 
 .image-col1 img{
@@ -415,7 +421,14 @@ font-weight: 700;
     background-repeat: no-repeat;
     
 }
-
+.image{
+    display: flex;
+    align-items: center;
+}
+.image .image-2{
+     margin-bottom: 320px; 
+     margin-left: -53px;
+}
 
 
 .func-section h5,h1,p{
@@ -437,6 +450,8 @@ font-size: 24px;
 font-style: normal;
 font-weight: 500;
 line-height: normal;
+padding-bottom: 0;
+margin-bottom: -40px;
 }
 .func-section h1{
     font-size: 72px;
@@ -456,7 +471,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 500;
 line-height: 32px;
-
+margin-bottom: 30px;
 }
 
 
